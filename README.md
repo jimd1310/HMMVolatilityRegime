@@ -26,7 +26,7 @@ This project investigates whether volatility clustering in equity returns is bet
 - **Models:**  
   - Gaussian Hidden Markov Models (2–5 states)  
   - i.i.d. Gaussian  
-  - i.i.d. Student-$t$  
+  - i.i.d. Student-\(t\)
   - GARCH(1,1) with Gaussian innovations  
 
 - **Estimation:**  
