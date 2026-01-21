@@ -4,7 +4,7 @@ This project investigates whether volatility clustering in equity returns is bet
 
 ## What to Read First
 
-- **Full report (PDF):** `report/paper.pdf` — complete methodology, results, and discussion.
+- [**Full report (PDF)**](report/report.pdf) — complete methodology, results, and discussion.
 - **Main analysis notebook:** `analysis/main_analysis.ipynb` — reproduces all tables and figures.
 - **Core model code:** `src/models/hmm.py` — HMM estimation, filtering, and decoding logic.
 
