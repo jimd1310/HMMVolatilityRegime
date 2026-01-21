@@ -5,8 +5,8 @@ This project investigates whether volatility clustering in equity returns is bet
 ## What to Read First
 
 - [**Full report (PDF)**](report/report.pdf) — complete methodology, results, and discussion.
-- **Main analysis notebook:** `analysis/main_analysis.ipynb` — reproduces all tables and figures.
-- **Core model code:** `src/models/hmm.py` — HMM estimation, filtering, and decoding logic.
+- **[Main analysis notebook](analysis.ipynb)** — reproduces all tables and figures.
+- **[Core model code](src/models/hmm.py)** — HMM estimation, filtering, and decoding logic.
 
 ## Key Findings
 
@@ -18,7 +18,7 @@ This project investigates whether volatility clustering in equity returns is bet
 ## Repository Structure
 
 - `src/` contains reusable model code (HMM, GARCH, likelihoods, forecasting logic).
-- `analysis.inbpy` runs experiments, generates tables and figures, and calls `src/`.
+- `analysis.ipynb` runs experiments, generates tables and figures, and calls `src/`.
 - `report/` contains the full academic-style write-up and final PDF.
 
 ## Methods Overview
