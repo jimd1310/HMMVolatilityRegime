@@ -1,4 +1,4 @@
-# Volatility Regimes in Equity Returns: HMM vs GARCH
+# Volatility Regimes in Equity Returns
 
 This project investigates whether volatility clustering in equity returns is better explained by **discrete latent regimes** or **continuous autoregressive volatility dynamics**. Using daily SPY log-returns from 2000–2025, I compare a Gaussian Hidden Markov Model (HMM) against standard benchmarks, including i.i.d. Gaussian, i.i.d. Student-t, and GARCH(1,1), under a strict fixed-origin density forecasting framework spanning the COVID-19 structural break.
 
