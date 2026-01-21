@@ -2,6 +2,12 @@
 
 This project investigates whether volatility clustering in equity returns is better explained by **discrete latent regimes** or **continuous autoregressive volatility dynamics**. Using daily SPY log-returns from 2000–2025, I compare a Gaussian Hidden Markov Model (HMM) against standard benchmarks, including i.i.d. Gaussian, i.i.d. Student-t, and GARCH(1,1), under a strict fixed-origin density forecasting framework spanning the COVID-19 structural break.
 
+## What to Read First
+
+- **Full report (PDF):** `report/paper.pdf` — complete methodology, results, and discussion.
+- **Main analysis notebook:** `analysis/main_analysis.ipynb` — reproduces all tables and figures.
+- **Core model code:** `src/models/hmm.py` — HMM estimation, filtering, and decoding logic.
+
 ## Key Findings
 
 - A **4-state Gaussian HMM** is strongly favored by BIC and exhibits persistent, economically interpretable volatility regimes.
@@ -48,12 +54,6 @@ This project investigates whether volatility clustering in equity returns is bet
    ```
 
 All tables and figures in the report are generated from this notebook.
-
-## What to Read First
-
-- Full report (PDF): report/paper.pdf
-- Main empirical workflow: analysis/main_analysis.ipynb
-- HMM implementation: src/models/hmm.py (core logic, EM, filtering, decoding)
 
 ## Notes on Limitations
 
