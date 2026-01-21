@@ -65,3 +65,11 @@ All tables and figures in the report are generated from this notebook.
 ## Extensions
 
 Natural extensions include Student-t HMM emissions, Markov-switching GARCH models, longer-horizon forecasting, and multi-asset validation.
+
+## References 
+
+1. R. Cont. Empirical properties of asset returns: Stylized facts and statistical issues. Quantitative Finance, 1(2):223–236, 2001. doi: 10.1080/713665670.
+
+2. J. Duriez. Modeling financial volatility with hidden Markov and stochastic volatility models overlays. SSRN Electronic Journal, April 2025. doi: 10.2139/ssrn.5580230. URL https: //ssrn.com/abstract=5580230.
+
+3. L. R. Rabiner. A tutorial on hidden Markov models and selected applications in speech recognition. Proceedings of the IEEE, 77(2):257–286, 1989.
