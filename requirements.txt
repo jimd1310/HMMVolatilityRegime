@@ -1,11 +1,14 @@
-# Core numerical computing
-numpy>=1.21.0
+# Core packages
+numpy==2.3.3
+scipy==1.16.3
+hmmlearn==0.3.3
+arch==8.0.0
+matplotlib==3.10.6
 
-# Visualization
-matplotlib>=3.5.0
+# Essential dependencies
+pandas>=1.3.0
+scikit-learn>=1.0.0
+statsmodels>=0.13.0
 
-# Econometrics/Time Series
-arch>=5.3.0  # GARCH models
-
-# Development
-jupyter>=1.0.0  # Notebook interface
+# Development environment
+jupyter>=1.0.0
