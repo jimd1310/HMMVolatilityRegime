@@ -12,7 +12,7 @@ This project investigates whether volatility clustering in equity returns is bet
 ## Repository Structure
 
 - `src/` contains reusable model code (HMM, GARCH, likelihoods, forecasting logic).
-- `analysis/` runs experiments, generates tables and figures, and calls `src/`.
+- `analysis.inbpy` runs experiments, generates tables and figures, and calls `src/`.
 - `report/` contains the full academic-style write-up and final PDF.
 
 ## Methods Overview
@@ -20,7 +20,7 @@ This project investigates whether volatility clustering in equity returns is bet
 - **Models:**  
   - Gaussian Hidden Markov Models (2–5 states)  
   - i.i.d. Gaussian  
-  - i.i.d. Student-t  
+  - i.i.d. Student-$t$  
   - GARCH(1,1) with Gaussian innovations  
 
 - **Estimation:**  
